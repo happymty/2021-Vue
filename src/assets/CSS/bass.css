@@ -1,0 +1,81 @@
+html,
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+form,
+input,
+fieldset,
+legend,
+figure,
+figcaption,
+textarea {
+  margin: 0;
+  padding: 0;
+}
+* {
+  box-sizing: border-box;
+  /* -webkit-tap-highlight-color: transparent; */
+}
+
+
+body {
+  font-size: 0.12rem;
+  background-color: #f4f4f4;
+  overflow-x: hidden
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 12px;
+  font-weight: normal;
+}
+ul,
+ol,
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+b,
+strong {
+  font-weight: 500;
+}
+em,
+i {
+  font-style: normal;
+}
+input,
+fieldset {
+  outline: none;
+  border: 0;
+}
+img {
+  display: block;
+  border: none;
+}
+.clear_fix::after {
+  content: ".";
+  display: block;
+  clear: both;
+  height: 0px;
+  overflow: hidden;
+  visibility: hidden;
+}
+.clear_fix {
+  zoom: 1;
+}
